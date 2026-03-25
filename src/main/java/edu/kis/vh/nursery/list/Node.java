@@ -7,7 +7,7 @@ public class Node {
 	private Node next;
 
     public Node(int i) {
-        setValue(i);
+        value = i;
     }
 
 	public Node getNext() {
@@ -29,9 +29,4 @@ public class Node {
 	public int getValue() {
 		return value;
 	}
-
-	public void setValue(int value) {
-		this.value = value;
-	}
-
 }
