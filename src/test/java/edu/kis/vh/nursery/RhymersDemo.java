@@ -14,7 +14,11 @@ class RhymersDemo {
   public static void main(String[] args) {
     Rhymersfactory factory = new DefaultRhymersFactory();
 
-    DefaultCountingOutRhymer[] rhymers = {
+    testRhymes(factory);
+  }
+
+private static void testRhymes(Rhymersfactory factory) {
+	DefaultCountingOutRhymer[] rhymers = {
       factory.getStandardRhymer(),
       factory.getFalseRhymer(),
       factory.getFIFORhymer(),
@@ -32,5 +36,5 @@ class RhymersDemo {
     }
 
     System.out.println("total rejected is " + ((HanoiRhymer) rhymers[INT1]).reportRejected());
-  }
+}
 }
