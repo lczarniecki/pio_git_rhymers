@@ -1,6 +1,13 @@
 package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
+	/**
+	 * TODO
+	 * Skoro mamy już działającą klasę listy dwukierunkowej, to po
+	 * co powielać kod i doimplemontowywać, stos który nawet nie jest
+	 * w jakimkolwiek przypatku zauwazalnie szybszy. Lepiej użyć zaimplementowaną
+	 * wcześniej klasę.
+	 */
 
   public static final int MAX_SIZE = 12;
   public static final int EMPTY = -1;
